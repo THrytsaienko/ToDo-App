@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #282525;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.add-task__title {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 30px;
+}
+
+.add-task__form {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.add-task__input {
+  height: 50px;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin-right: 30px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #073a8c;
+}
+
+.add-task__input::-webkit-input-placeholder {
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.add-task__input:-ms-input-placeholder {
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.add-task__input::-ms-input-placeholder {
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.add-task__input::placeholder {
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.add-task__btn {
+  background-color: #073a8c;
+  border: 2px solid #073a8c;
+  color: #fff;
+}
+
+.tasks__title {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.tasks__list {
+  margin-bottom: 30px;
+}
+
+.tasks__list .list__item {
+  padding: 10px 0 10px 15px;
+  border: 1px solid #c9c9c9;
+}
+
+.tasks__list .list__item-delete {
+  float: right;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.tasks__btn {
+  background-color: #019e2d;
+  border: 2px solid #019e2d;
+  color: #fff;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+.tasks__sort-name {
+  background-color: #ad42f4;
+  border: 2px solid #ad42f4;
+  color: #fff;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+.tasks__sort-num {
+  background-color: #f45941;
+  border: 2px solid #f45941;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 3px;
+  outline: none;
+  font-weight: 500;
+}
+
+.fa-remove {
+  color: #f45941;
+}

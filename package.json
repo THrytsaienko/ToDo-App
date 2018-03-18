@@ -1,0 +1,24 @@
+{
+	"name": "to-do-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "gulp",
+		"build": "gulp build"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"autoprefixer": "^7.2.3",
+		"browser-sync": "^2.19.0",
+		"del": "^3.0.0",
+		"gulp": "github:gulpjs/gulp#4.0",
+		"gulp-postcss": "^7.0.0",
+		"gulp-pug": "^3.3.0",
+		"gulp-rename": "^1.2.2",
+		"gulp-sass": "3.1.0",
+		"rename": "^1.0.4"
+	},
+	"dependencies": {}
+}
